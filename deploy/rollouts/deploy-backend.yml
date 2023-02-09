@@ -157,7 +157,7 @@ spec:
 
       containers:
         - name: pdf-editor
-          image: docker.io/dipugodocker/pdf-editor:0.8-backend-rotate
+          image: docker.io/dipugodocker/pdf-editor:1.0-backend-rotate
           volumeMounts:
           - name: backend
             mountPath: /go/src/
